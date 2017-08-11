@@ -1,0 +1,28 @@
+//
+//  ServiceHitProject-PrefixHeader.pch
+//  ServiceHitProject
+//
+//  Created by GLB-285-PC on 06/07/17.
+//  Copyright © 2017 Globussoft. All rights reserved.
+//
+
+#ifndef ServiceHitProject_PrefixHeader_pch
+#define ServiceHitProject_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ServiceHitProject_PrefixHeader_pch */
+
+#define WhiteColor [UIColor whiteColor]
+#define RedColor [UIColor redColor]
+#define grayColor [UIColor grayColor]
+#define blackColor [UIColor blackColor]
+#define yellowColor [UIColor yellowColor]
+#define clearColor [UIColor clearColor]
+#define Rgb2UIColor(r, g, b)  [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+// server parameter
+#define serverVariable @"https://api.dribbble.com/v1/shots?"
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
